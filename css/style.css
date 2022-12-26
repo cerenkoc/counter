@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    margin-top: 20rem;
+    
+}
+body{
+    color: hsl(340, 48%, 56%);
+    background-color:hsl(210, 36%, 96%);
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;
+    letter-spacing:0.25rem ;
+    border-radius:0.5rem;
+    margin-bottom: 1rem;
+  
+}
+#value{
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0.375rem 0.75rem;
+    letter-spacing:0.25rem;
+    border-radius:0.5rem;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgb(211, 103, 166);
+    margin: 1rem;
+    
+
+}
+.btn:hover{
+    background:black;
+    color: white;
+    transition: all 1s;
+}
